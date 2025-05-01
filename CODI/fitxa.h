@@ -9,11 +9,12 @@
 typedef enum { TIPUS_NORMAL, TIPUS_DAMA, TIPUS_EMPTY } TipusFitxa;
 typedef enum { COLOR_NEGRE, COLOR_BLANC } ColorFitxa;
 
-class Fitxa {
+class Fitxa
+{
 private:
     TipusFitxa tipus;
     ColorFitxa color;
-    std::vector<Moviment> movimentsValids;
+    vector<Moviment> movimentsValids;
 
 public:
     Fitxa();
@@ -25,7 +26,7 @@ public:
     void setColor(ColorFitxa c);
     void afegeixMoviment(const Moviment& m);
     void netejaMoviments();
-    const std::vector<Moviment>& getMovimentsValids() const;
+    const vector<Moviment>& getMovimentsValids() const;
 
     bool esBuida() const;
     void convertirADama();

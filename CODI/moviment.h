@@ -5,18 +5,19 @@
 #include <vector>
 #include "Posicio.h"
 
-class Moviment {
+class Moviment
+{
 private:
-    std::vector<Posicio> cami;
-    std::vector<Posicio> pecesCapturades;
+    vector<Posicio> cami;
+    vector<Posicio> pecesCapturades;
 
 public:
     Moviment();
 
     void afegeixPosicio(const Posicio& p);
     void afegeixCaptura(const Posicio& p);
-    const std::vector<Posicio>& getCami() const;
-    const std::vector<Posicio>& getCaptures() const;
+    const vector<Posicio>& getCami() const;
+    const vector<Posicio>& getCaptures() const;
     bool haCapturat() const;
 };
 

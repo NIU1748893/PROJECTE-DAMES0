@@ -3,25 +3,32 @@
 #include <sstream>
 #include <iostream>
 
-void Tauler::inicialitza(const std::string& nomFitxer) {
+using namespace std;
+
+void Tauler::inicialitza(const string& nomFitxer)
+{
     // Inicialitzar tot buit
     for (int i = 0; i < N_FILES; ++i)
+    {
         for (int j = 0; j < N_COLUMNES; ++j)
             m_tauler[i][j] = Fitxa(TIPUS_EMPTY, COLOR_BLANC);
 
-    std::ifstream fitxer(nomFitxer);
-    std::string linia;
+    }
+    ifstream fitxer(nomFitxer);
+    string linia;
 
-    while (std::getline(fitxer, linia)) {
-        std::istringstream iss(linia);
+    while (getline(fitxer, linia))
+    {
+        istringstream iss(linia);
         char tipusChar;
-        std::string pos;
+        string pos;
         iss >> tipusChar >> pos;
 
         TipusFitxa tipus;
         ColorFitxa color;
 
-        switch (tipusChar) {
+        switch (tipusChar)
+        {
         case 'O': tipus = TIPUS_NORMAL; color = COLOR_BLANC; break;
         case 'X': tipus = TIPUS_NORMAL; color = COLOR_NEGRE; break;
         case 'D': tipus = TIPUS_DAMA; color = COLOR_BLANC; break;

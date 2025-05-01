@@ -10,12 +10,13 @@ using namespace std;
 const int N_FILES = 8;
 const int N_COLUMNES = 8;
 
-class Tauler {
+class Tauler
+{
 private:
     Fitxa m_tauler[N_FILES][N_COLUMNES];
 
 public:
-    void inicialitza(const std::string& nomFitxer);
+    void inicialitza(const string& nomFitxer);
     void actualitzaMovimentsValids();
     void getPosicionsPossibles(const Posicio& origen, int& nPosicions, Posicio posicionsPossibles[]);
     bool mouFitxa(const Posicio& origen, const Posicio& desti);
