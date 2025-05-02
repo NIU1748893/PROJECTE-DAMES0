@@ -14,6 +14,8 @@ private:
 public:
     Posicio(); // constructor buit
     Posicio(const string& pos);
+    Posicio(int fila, int columna) : fila(fila), columna(columna) {}
+
 
     int getFila() const;
     int getColumna() const;
