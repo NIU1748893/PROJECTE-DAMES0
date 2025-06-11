@@ -1,0 +1,46 @@
+﻿  fitxa.cpp
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\GraphicManager.h(12,10): error C1083: No se puede abrir el archivo incluir: '../Graphic Lib/libreria.h': No such file or directory
+  (compilando archivo de origen "../../0.%20C++%20Code/CODI/fitxa.cpp")
+  
+  GraphicManager.cpp
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\GraphicManager.h(12,10): error C1083: No se puede abrir el archivo incluir: '../Graphic Lib/libreria.h': No such file or directory
+  (compilando archivo de origen "../../0.%20C++%20Code/CODI/GraphicManager.cpp")
+  
+  joc.cpp
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\Fitxa.h(11,16): error C2365: 'COLOR_NEGRE': nueva definición; la definición anterior era 'enumerador'
+  (compilando archivo de origen "../../0.%20C++%20Code/CODI/joc.cpp")
+      C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\info_joc.hpp(23,5):
+      vea la declaración de 'COLOR_NEGRE'
+  
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\Fitxa.h(11,29): error C2365: 'COLOR_BLANC': nueva definición; la definición anterior era 'enumerador'
+  (compilando archivo de origen "../../0.%20C++%20Code/CODI/joc.cpp")
+      C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\info_joc.hpp(24,5):
+      vea la declaración de 'COLOR_BLANC'
+  
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\Fitxa.h(11,43): error C2371: 'ColorFitxa': nueva definición; tipos básicos distintos
+  (compilando archivo de origen "../../0.%20C++%20Code/CODI/joc.cpp")
+      C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\info_joc.hpp(22,6):
+      vea la declaración de 'ColorFitxa'
+  
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\GraphicManager.h(12,10): error C1083: No se puede abrir el archivo incluir: '../Graphic Lib/libreria.h': No such file or directory
+  (compilando archivo de origen "../../0.%20C++%20Code/CODI/joc.cpp")
+  
+  main.cpp
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\main.cpp(5,10): error C1083: No se puede abrir el archivo incluir: 'libreria.h': No such file or directory
+  tauler.cpp
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\CODI\GraphicManager.h(12,10): error C1083: No se puede abrir el archivo incluir: '../Graphic Lib/libreria.h': No such file or directory
+  (compilando archivo de origen "../../0.%20C++%20Code/CODI/tauler.cpp")
+  
+  debug.cpp
+  image_png.cpp
+  keyboard.cpp
+  mouse.cpp
+  NFont.cpp
+  SDL_FontCache.cpp
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\GraphicLib\NFont\SDL_FontCache.cpp(205,25): warning C4309: '=': truncamiento de valor constante
+C:\Users\Usuario\source\repos\NIU1748893\PROJECTE-DAMES0\0. C++ Code\GraphicLib\NFont\SDL_FontCache.cpp(216,25): warning C4309: '=': truncamiento de valor constante
+  sound.cpp
+  sprites.cpp
+  stb_vorbis.cpp
+  video.cpp
+  Generando código...
