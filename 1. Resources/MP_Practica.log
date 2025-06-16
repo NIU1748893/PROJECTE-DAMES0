@@ -1,0 +1,24 @@
+﻿  GraphicManager.cpp
+C:\Users\alexc\source\repos\MP-Curs-24-25(2)\projecte\codi_lliurament_final\0. C++ Code\Logic Game\GraphicManager.cpp(29,37): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\alexc\source\repos\MP-Curs-24-25(2)\projecte\codi_lliurament_final\0. C++ Code\Logic Game\GraphicManager.cpp(29,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  joc.cpp
+  main.cpp
+  debug.cpp
+  image_png.cpp
+  keyboard.cpp
+  mouse.cpp
+  NFont.cpp
+  SDL_FontCache.cpp
+C:\Users\alexc\source\repos\PROJECTE-DAMES0DEFINITIVO\0. C++ Code\Graphic Lib\NFont\SDL_FontCache.cpp(205,25): warning C4309: '=': truncamiento de valor constante
+C:\Users\alexc\source\repos\PROJECTE-DAMES0DEFINITIVO\0. C++ Code\Graphic Lib\NFont\SDL_FontCache.cpp(216,25): warning C4309: '=': truncamiento de valor constante
+  sound.cpp
+  sprites.cpp
+  stb_vorbis.cpp
+  video.cpp
+  CuaMoviments.cpp
+  fitxa.cpp
+  moviment.cpp
+  posicio.cpp
+  tauler.cpp
+  Generando código...
+  MP_Practica.vcxproj -> C:\Users\alexc\Source\Repos\PROJECTE-DAMES0DEFINITIVO\2. Platforms\0. Windows Desktop\Program\MP_Practica.exe
